@@ -60,3 +60,26 @@ The intuitive **Tkinter + CustomTkinter GUI** makes file encryption accessible t
     Enter a strong password (strength indicator will guide you).
     Click Encrypt to secure your file.
     To decrypt, choose the encrypted file and enter the correct password.
+## 🧩 How It Works
+
+| Step | Description |
+|------|--------------|
+| 🗂️ **Select File** | Browse and choose the file you wish to encrypt or decrypt. |
+| 🔑 **Enter Password** | Input a strong password (strength is shown instantly). |
+| 🧠 **Encryption Process** | AES-256 secures your file and generates an encrypted output `.enc`. |
+| 🔓 **Decryption** | Decrypts only with the correct password — else file deletion triggers after 3 failed attempts. |
+
+---
+
+## 📸 GUI Preview
+
+*<img width="494" height="423" alt="Secure" src="https://github.com/user-attachments/assets/e4500882-3f09-4c08-abbf-1c7d836b417d" />*  
+
+Example file structure:
+
+```bash
+📁 SECURE-FILE-ENCRYPION-TOOL/
+ ├── main.py
+ ├── requirements.txt
+ └── README.md
+
